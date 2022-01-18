@@ -1,0 +1,26 @@
+//Modificacion colores primary y secondary
+$primary: #5265E1;
+$secondary: #FA5959;
+
+//Funcionalidades hover de los enlaces
+.mynav a:hover{
+    border-bottom: 2px solid #fa5959;
+}
+
+.mynav button:hover{
+    background-color: white;
+    color: #fa5959;
+}
+
+a:hover{
+    border-bottom: 2px solid #fa5959;
+}
+
+//Formato de cards con nt-child 
+ul:nth-child(odd) { 
+    color: grey; 
+    font-weight: bold;  
+}
+
+//Importacion archivos necesarios 
+@import '../node_modules/bootstrap/scss/bootstrap';
